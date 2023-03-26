@@ -1,0 +1,19 @@
+@import "../../styles/main.scss";
+
+.filter {
+  transition: all 0.5s;
+}
+
+.option {
+  &__title {
+    margin-bottom: 8px;
+  }
+}
+
+.trigger {
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    width: 224px;
+  }
+}
