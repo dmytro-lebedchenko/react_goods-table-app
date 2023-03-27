@@ -1,7 +1,6 @@
 import classNames from 'classnames';
 import { ChangeEvent, useState } from 'react';
 
-import { ITEMS_PER_PAGE } from '../../app/const';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { productDelete, productUpdate } from '../../features/productsSlice';
 import { Product } from '../../types/Product';
@@ -201,7 +200,6 @@ export const ProductItem: React.FC<Props> = ({ product }) => {
                 className={classNames(
                   'dropdown',
                   { 'is-active': isOpened },
-                  { 'is-up': !(id % ITEMS_PER_PAGE) },
                 )}
               >
                 <div className="dropdown__trigger dropdown-trigger">

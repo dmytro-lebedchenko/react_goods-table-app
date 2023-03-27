@@ -45,3 +45,11 @@
     }
   }
 }
+
+
+.dropdown {
+  &__content {
+    overflow-y: scroll;
+    max-height: 68px;
+  }
+}

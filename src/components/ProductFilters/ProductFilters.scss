@@ -17,3 +17,13 @@
     width: 224px;
   }
 }
+
+.dropdown-content {
+  overflow-y: scroll;
+  max-height: 140px;
+
+  @include onDesktop {
+    overflow: auto;
+    max-height: 400px;
+  }
+}
