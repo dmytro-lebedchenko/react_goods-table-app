@@ -223,7 +223,7 @@ export const ProductItem: React.FC<Props> = ({ product }) => {
                 </div>
 
                 <div className="dropdown__menu dropdown-menu">
-                  <div className="dropdown__content dropdown-content">
+                  <div className="dropdown__list dropdown-content">
                     {categoryList.map((categoryItem) => (
                       <option
                         key={categoryItem}
